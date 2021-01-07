@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+
+<body>
+      <script>
+            //             Declare and Initialize an array and store available
+            // education qualifications in Pakistan (e.g. SSC, HSC, BCS,
+            // BS, BCOM, MS, M. Phil., PhD). Show the listed
+            // qualifications in your browser like:
+
+            document.write("<h1>Qualification</h1><br><br><br>");
+
+            var student = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", " M. Phil", "PhD"];
+
+
+            student.forEach(function (value) {
+                  document.write(value + "<br>");
+            });
+            document.write("<br><br><br>")
+            student.forEach(function (value, index) {
+                  document.write(index + ")" + value + "<br>");
+            });
+      </script>
+</body>
+
+</html>
